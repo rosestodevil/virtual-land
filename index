@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>virtual land</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>uma terra para coisas que não têm lugar.</h1>
+
+  <form id="upload-form">
+    <label class="file-label">
+      🌱 Escolha um arquivo
+      <input type="file" id="file-input" />
+    </label>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="gallery"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
