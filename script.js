@@ -1,7 +1,7 @@
 const { createClient } = supabase;
 
 const supabaseUrl = "https://gnmrsgkdhlavtqxowkmi.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdubXJzZ2tkaGxhdnRxeG93a21pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMyMzU0OTEsImV4cCI6MjA2ODgxMTQ5MX0.QI1SDoGqqAP51MxBAzYwqcvGnBANeW70OIzHBeRnDEw";
 const supabaseClient = createClient(supabaseUrl, supabaseKey);
 
 const form = document.getElementById('upload-form');
