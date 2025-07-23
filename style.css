@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: monospace;
+  background: #f0f0f0;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+.file-label {
+  cursor: pointer;
+  background: #e0ffe0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background: #c0ffc0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  transition: all 0.5s ease;
+}
+
+.gallery-item {
+  max-width: 200px;
+  border: 2px dashed #ccc;
+  padding: 1rem;
+  background: white;
+  word-break: break-all;
+  animation: appear 1s ease;
+}
+
+@keyframes appear {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
